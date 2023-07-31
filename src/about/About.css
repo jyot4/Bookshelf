@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.About{
+    width: 100%;
+    /* background-color: red; */
+    /* position: relative; */
+   
+}
+
+.AboutContent{
+    width:100%;
+    height:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./about-banner.jpg) no-repeat scroll center / cover ;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    opacity: 0.8;
+    color:white;
+    z-index: 0;
+    position: relative;
+    /* -color: red; */
+   
+    
+}
+.AboutContent::before{
+    content: "";
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.AboutContent h1{
+    width: 60%;
+    z-index: 2;
+    /* pad-bottom: 20px; */
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.AboutContent button{
+    font-size: 24px;
+    padding: 8px 25px;
+    margin-top: 20px;
+    background-color: rgb(49, 53, 161);
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px 3px rgb(42, 41, 41);
+    border: none;
+    position: absolute;
+    margin-top: 300px;
+    z-index: 2;
+}
+
+/* .AboutContent .right h1{
+    /* position: absolute;
+    top:50%; */
+    /* text-align: center; */
+   
+
+.AboutContent2{
+    /* background-image: url(img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:10px 5px ; */
+    
+    display: flex;
+    padding: 10px 50px;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 50px; */
+    padding: 0px 40px;
+    /* position: absolute;
+    top: 850px;
+    right: 0px; */
+    width:100%;
+    height: 600px;
+   
+}
+.AboutContent2 .left{
+    width: 50%;
+text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.AboutContent2 .left h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.AboutContent2 .right {
+    width:40%;
+    height:90%;
+}
+.AboutContent2 .right img{
+    width: 100%;
+    box-shadow: 0px 0px 15px 3px rgb(237, 217, 187);
+    border-radius: 15px;
+    height: 100%;
+}
+
+.AboutContent2 h2 {
+    /* position: absolute; */
+   /* top: 450px; */
+   /* left: px; */
+
+   /* right:1000px; */
+   font-size: 40px;
+
+   
+}
+
+
+/* p{
+    position: absolute;  
+    right:1000px;
+    bottom:50px;
+    width: 400px;
+    margin: 10px;
+    font-size: 25px;
+
+} */
+.Content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(184, 183, 183);
+    /* margin: 10px; */
+    padding:0px  50px;
+    /* position: absolute;
+    top: 850px;
+    right: 0px; */
+    width:100%;
+    height:600px;
+}
+.Content2 .left{
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Content2 .left h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.Content2 .right img{
+    width: 100%;
+    height: 90%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 3px gray;
+}
+.Content2 .right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    height:100%;
+}

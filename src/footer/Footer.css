@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.footer{
+    /* background-color: #3bb19b; */
+    background-color: red;
+    color:white;
+    display: flex;
+
+    flex-direction: row;
+}
+
+.icon{
+    color:rgba(0, 0, 0, 0.644);
+    
+}
+
+p{
+    color:rgba(0, 0, 0, 0.644);
+}

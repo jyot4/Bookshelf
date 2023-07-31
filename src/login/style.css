@@ -1,0 +1,90 @@
+/* Login.css */
+.login-container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #f6f6f6;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-form-divider {
+    text-align: center;
+    margin: 20px 0;
+    color: #999;
+  }
+  
+  .login-form-divider:before,
+  .login-form-divider:after {
+    content: '';
+    display: inline-block;
+    width: 30%;
+    border-top: 1px solid #ccc;
+    vertical-align: middle;
+  }
+  
+  .login-form-divider:before {
+    margin-right: 10px;
+  }
+  
+  .login-form-divider:after {
+    margin-left: 10px;
+  }
+  
+  .social-login-container {
+    text-align: center;
+  }
+  
+  .social-login-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 40px;
+    cursor: pointer;
+  }
+  
+  

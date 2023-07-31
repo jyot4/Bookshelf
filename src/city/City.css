@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.country{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 12, 12);
+   
+}
+
+.CountryName{
+color: bisque;
+
+
+}
+ .CountryName h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    
+}
+
+select {
+    padding: 1rem 1.2rem;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0 0.5rem;
+    border-radius: 0.8rem;
+    
+
+}
+
+select:hover{
+    padding: 1.2rem 1.5rem ;
+}
+
+
+.option{
+
+    
+}
