@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: #3bb19b;
+    color:white;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.icn
